@@ -1,0 +1,20 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+mlflow = "*"
+hyperopt = "*"
+sklearn = "*"
+category-encoders = "*"
+urllib3 = "*"
+catboost = "*"
+xgboost = "==1.6.0"
+prefect = "==2.0b5"
+pymongo = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
